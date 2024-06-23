@@ -1,6 +1,7 @@
 //errors: 
 //  illegal instruction: strlen is deisgned for C-Styled strings but std::strings are designed for c++ -> instead should use .length or .size
 //  timeout: one to one compare with neighbor takes too long -> compare with entire list? -> use insertionSort
+//  need to remove duplicates -> use .erase(unique(list.begin(), list.end()), list.end()); (used for vectors and strings)
 
 #include<iostream>
 using namespace std;
