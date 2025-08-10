@@ -1,0 +1,1 @@
+print((lambda w,h: w*h/2)(*map(int, input().split())))
